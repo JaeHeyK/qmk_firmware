@@ -1,0 +1,33 @@
+{
+    "manufacturer": "Jaehyeon Kim",
+    "keyboard_name": "8BitDo Super Button",
+    "maintainer": "JaeHeyK",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP28"]
+        ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x5342",
+        "vid": "0x3842"
+    },
+    "layouts": {
+        "LAYOUT_ortho_1x1": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
